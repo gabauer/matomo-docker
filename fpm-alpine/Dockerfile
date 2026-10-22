@@ -1,4 +1,4 @@
-FROM php:8.4-fpm-alpine
+FROM php:8.4-fpm-alpine@sha256:c70e50a06d85d73d5790848c4e6c9e32b470052e1c86d67a1fb784a97d247d60
 
 ENV PHP_MEMORY_LIMIT=256M
 
